@@ -20,7 +20,6 @@ namespace Microsoft.Toolkit.Diagnostics
         /// <summary>
         /// Throws an <see cref="ArgumentException"/> when <see cref="Guard.CanRead"/> fails.
         /// </summary>
-        [MethodImpl(MethodImplOptions.NoInlining)]
         [DoesNotReturn]
         public static void ThrowArgumentExceptionForCanRead(Stream stream, string name)
         {
@@ -30,7 +29,6 @@ namespace Microsoft.Toolkit.Diagnostics
         /// <summary>
         /// Throws an <see cref="ArgumentException"/> when <see cref="Guard.CanWrite"/> fails.
         /// </summary>
-        [MethodImpl(MethodImplOptions.NoInlining)]
         [DoesNotReturn]
         public static void ThrowArgumentExceptionForCanWrite(Stream stream, string name)
         {
@@ -40,7 +38,6 @@ namespace Microsoft.Toolkit.Diagnostics
         /// <summary>
         /// Throws an <see cref="ArgumentException"/> when <see cref="Guard.CanSeek"/> fails.
         /// </summary>
-        [MethodImpl(MethodImplOptions.NoInlining)]
         [DoesNotReturn]
         public static void ThrowArgumentExceptionForCanSeek(Stream stream, string name)
         {
@@ -50,7 +47,6 @@ namespace Microsoft.Toolkit.Diagnostics
         /// <summary>
         /// Throws an <see cref="ArgumentException"/> when <see cref="Guard.IsAtStartPosition"/> fails.
         /// </summary>
-        [MethodImpl(MethodImplOptions.NoInlining)]
         [DoesNotReturn]
         public static void ThrowArgumentExceptionForIsAtStartPosition(Stream stream, string name)
         {
