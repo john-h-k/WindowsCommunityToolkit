@@ -19,7 +19,6 @@ namespace Microsoft.Toolkit.Diagnostics
         /// <summary>
         /// Throws an <see cref="ArgumentException"/> when <see cref="Guard.IsCloseTo(int,int,uint,string)"/> fails.
         /// </summary>
-        [MethodImpl(MethodImplOptions.NoInlining)]
         [DoesNotReturn]
         public static void ThrowArgumentExceptionForIsCloseTo(int value, int target, uint delta, string name)
         {
@@ -29,7 +28,6 @@ namespace Microsoft.Toolkit.Diagnostics
         /// <summary>
         /// Throws an <see cref="ArgumentException"/> when <see cref="Guard.IsNotCloseTo(int,int,uint,string)"/> fails.
         /// </summary>
-        [MethodImpl(MethodImplOptions.NoInlining)]
         [DoesNotReturn]
         public static void ThrowArgumentExceptionForIsNotCloseTo(int value, int target, uint delta, string name)
         {
@@ -39,7 +37,6 @@ namespace Microsoft.Toolkit.Diagnostics
         /// <summary>
         /// Throws an <see cref="ArgumentException"/> when <see cref="Guard.IsCloseTo(long,long,ulong,string)"/> fails.
         /// </summary>
-        [MethodImpl(MethodImplOptions.NoInlining)]
         [DoesNotReturn]
         public static void ThrowArgumentExceptionForIsCloseTo(long value, long target, ulong delta, string name)
         {
@@ -49,7 +46,6 @@ namespace Microsoft.Toolkit.Diagnostics
         /// <summary>
         /// Throws an <see cref="ArgumentException"/> when <see cref="Guard.IsNotCloseTo(long,long,ulong,string)"/> fails.
         /// </summary>
-        [MethodImpl(MethodImplOptions.NoInlining)]
         [DoesNotReturn]
         public static void ThrowArgumentExceptionForIsNotCloseTo(long value, long target, ulong delta, string name)
         {
@@ -59,7 +55,6 @@ namespace Microsoft.Toolkit.Diagnostics
         /// <summary>
         /// Throws an <see cref="ArgumentException"/> when <see cref="Guard.IsCloseTo(float,float,float,string)"/> fails.
         /// </summary>
-        [MethodImpl(MethodImplOptions.NoInlining)]
         [DoesNotReturn]
         public static void ThrowArgumentExceptionForIsCloseTo(float value, float target, float delta, string name)
         {
@@ -69,7 +64,6 @@ namespace Microsoft.Toolkit.Diagnostics
         /// <summary>
         /// Throws an <see cref="ArgumentException"/> when <see cref="Guard.IsNotCloseTo(float,float,float,string)"/> fails.
         /// </summary>
-        [MethodImpl(MethodImplOptions.NoInlining)]
         [DoesNotReturn]
         public static void ThrowArgumentExceptionForIsNotCloseTo(float value, float target, float delta, string name)
         {
@@ -79,7 +73,6 @@ namespace Microsoft.Toolkit.Diagnostics
         /// <summary>
         /// Throws an <see cref="ArgumentException"/> when <see cref="Guard.IsCloseTo(double,double,double,string)"/> fails.
         /// </summary>
-        [MethodImpl(MethodImplOptions.NoInlining)]
         [DoesNotReturn]
         public static void ThrowArgumentExceptionForIsCloseTo(double value, double target, double delta, string name)
         {
@@ -89,7 +82,6 @@ namespace Microsoft.Toolkit.Diagnostics
         /// <summary>
         /// Throws an <see cref="ArgumentException"/> when <see cref="Guard.IsNotCloseTo(double,double,double,string)"/> fails.
         /// </summary>
-        [MethodImpl(MethodImplOptions.NoInlining)]
         [DoesNotReturn]
         public static void ThrowArgumentExceptionForIsNotCloseTo(double value, double target, double delta, string name)
         {
