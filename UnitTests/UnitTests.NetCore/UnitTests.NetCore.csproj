@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Microsoft.Toolkit\Microsoft.Toolkit.csproj" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.7.1" />
   </ItemGroup>
 
   <Import Project="..\UnitTests.Shared\UnitTests.Shared.projitems" Label="Shared" />
